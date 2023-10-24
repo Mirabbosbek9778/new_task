@@ -1,4 +1,4 @@
-import { dataAbout } from "../../../mock/dataAbout";
+import { dataAbout } from "../../autoImports/importMocks";
 import { Box, Content, MiniWrap, Title } from "./style";
 
 const MiniCard = () => {

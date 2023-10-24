@@ -1,4 +1,4 @@
-import { dataMessage } from "../../../mock/infoMessage";
+import { dataMessage } from "../../autoImports/importMocks";
 import { BigText } from "../cards/style";
 import { Abouts, Container, Line } from "./style";
 

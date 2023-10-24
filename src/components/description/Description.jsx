@@ -1,6 +1,6 @@
-import MiniCard from "../generic/miniCard/MiniCard";
 import { Container } from "./style";
 import { Wrapper } from "../navbar/style";
+import { MiniCard } from "../autoImports/Imports";
 
 const Description = () => {
   return (
