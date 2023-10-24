@@ -4,8 +4,11 @@ const Wrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 28px 160px 28px 160px;
-  background: #ffc017 !important;
+  padding: 28px 160px;
+  padding-bottom: ${({ prop }) => (prop ? "0px " : "28px")};
+  background-color: ${({ colur }) => (colur ? "white" : "#ffc017")};
+  padding-right: ${({ colur }) => (colur ? "550px" : "160px")};
+  cursor: pointer;
 `;
 
 const Container = styled.div`

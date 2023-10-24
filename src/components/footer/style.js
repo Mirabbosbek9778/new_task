@@ -73,7 +73,7 @@ const Butt = styled.button`
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 153px;
+  margin-top: 152px;
   width: 139px;
   background: #ffc017;
   height: 50px;

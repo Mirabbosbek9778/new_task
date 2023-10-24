@@ -4,6 +4,7 @@ const Container = styled.div`
   width: 300px;
   display: flex;
   gap: 76px;
+  cursor: pointer;
 `;
 
 const Box = styled.div`

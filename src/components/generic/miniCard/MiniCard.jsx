@@ -11,7 +11,7 @@ const MiniCard = () => {
             <Title size="true">{item?.about}</Title>
             <Title.Item>{item?.date}</Title.Item>
           </Content>
-          <img src={item?.icons} />
+          <img src={item?.icons} className="bg-yellow-700" />
         </Box>
       ))}
     </MiniWrap>

@@ -1,9 +1,10 @@
 import { Buttons, People } from "../autoImports/Imports";
-import { Container, Content, H1, Layout, Ptext, Wrapper } from "./style";
+import { Wrapper } from "../navbar/style";
+import { Container, Content, H1, Layout, Ptext } from "./style";
 
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper prop="true">
       <Container>
         <Content>
           <H1>Alisher Rustamov</H1>
@@ -13,8 +14,10 @@ const About = () => {
           </Ptext>
           <Buttons title={"Men haqimda"} />
         </Content>
-        <Layout></Layout>
-        <img src={People} className="relative" />
+        <div className="relative">
+          <Layout></Layout>
+          <img src={People} className="relative" />
+        </div>
       </Container>
     </Wrapper>
   );

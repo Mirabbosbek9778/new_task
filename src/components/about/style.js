@@ -49,7 +49,7 @@ const Layout = styled.div`
   background: #fff;
   border-radius: 240.81px;
   position: absolute;
-  right: 430px;
+  right: 200px;
 `;
 
 export { Wrapper, H1, Ptext, Layout, Container, Content };
