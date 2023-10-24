@@ -1,6 +1,6 @@
-import { dataCards } from "../../autoImports/Imports";
-import Messages from "../message/Messages";
+import { dataCards } from "../../autoImports/importMocks";
 import { BigText, Box, Container, Content } from "./style";
+import { Messages } from "../../autoImports/Imports";
 
 const Cards = () => {
   return (

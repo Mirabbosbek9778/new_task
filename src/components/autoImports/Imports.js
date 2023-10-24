@@ -6,12 +6,14 @@ import Cards from "../generic/cards/Cards";
 import Navbar from "../navbar/Navbar";
 import About from "../about/About";
 import General from "../general/General";
-import { dataCards } from "../../mock/dataCards";
+import MiniCard from "../generic/miniCard/MiniCard";
+import Messages from "../generic/message/Messages";
 
 import People from "../../assets/images/people.png";
 
 export {
   Fonts,
+  MiniCard,
   Navbar,
   About,
   Cards,
@@ -19,6 +21,6 @@ export {
   Select,
   GenericText,
   General,
-  dataCards,
+  Messages,
   People,
 };
