@@ -50,3 +50,6 @@ Abouts.Date = styled.div`
 `;
 
 export { Line, Container, Abouts, Content };
+
+
+// nm ,
