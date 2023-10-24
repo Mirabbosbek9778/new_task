@@ -14,6 +14,11 @@ const Container = styled.div`
   width: 203px;
   padding-left: 77px;
 `;
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;
 
 const Abouts = styled.div`
   color: #000;
@@ -44,4 +49,4 @@ Abouts.Date = styled.div`
   width: 88px;
 `;
 
-export { Line, Container, Abouts };
+export { Line, Container, Abouts, Content };
