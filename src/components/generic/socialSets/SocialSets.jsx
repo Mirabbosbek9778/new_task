@@ -8,8 +8,13 @@ const SocialSets = () => {
       <BigText>Ijtimoiy tarmoqlar</BigText>
       {dataSocial?.map((item, index) => (
         <Box key={index}>
-          <img src={item?.icons} />
-          <h1>{item?.name}</h1>
+          <a
+            href="https://youtube.com/@alisherrustamov8925"
+            className="flex gap-[10px]"
+          >
+            <img src={item?.icons} />
+            <h1>{item?.name}</h1>
+          </a>
         </Box>
       ))}
     </div>

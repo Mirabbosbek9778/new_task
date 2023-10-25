@@ -8,12 +8,14 @@ const Cards = () => {
       <Container>
         {dataCards?.map((item, index) => (
           <Box key={index}>
-            <img src={item?.picture} />
-            <Content>
-              <BigText>{item?.title}</BigText>
-              <BigText size="true">{item?.about}</BigText>
-              <BigText.Date>{item?.date}</BigText.Date>
-            </Content>
+            <a href="https://www.youtube.com/live/qpZtTi7B_hM?si=xuVWxE3ODrLnUw6S">
+              <img src={item?.picture} />
+              <Content>
+                <BigText>{item?.title}</BigText>
+                <BigText size="true">{item?.about}</BigText>
+                <BigText.Date>{item?.date}</BigText.Date>
+              </Content>
+            </a>
           </Box>
         ))}
         <Messages />

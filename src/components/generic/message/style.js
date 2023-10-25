@@ -49,7 +49,12 @@ Abouts.Date = styled.div`
   width: 88px;
 `;
 
-export { Line, Container, Abouts, Content };
+const Item = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
 
+export { Line, Container, Abouts, Content, Item };
 
 // nm ,

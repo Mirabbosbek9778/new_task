@@ -5,6 +5,7 @@ const Butt = styled.button`
   padding: 10px 20px;
   border-radius: 14px;
   background: #000;
+  cursor: pointer;
 `;
 
 const ButText = styled.h1`

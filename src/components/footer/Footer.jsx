@@ -1,6 +1,10 @@
 import { Butt, Container, Content, Inputs, Text, Wrapper } from "./style";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Footer = () => {
+  const notify = () => toast("Xabaringiz Yuborildi!");
+
   return (
     <Wrapper>
       <Container>
@@ -18,7 +22,8 @@ const Footer = () => {
             imkoniyatingiz bor!
           </Text.Small>
           <Inputs type="text" placeholder="Xabar qoldirish" />
-          <Butt>Yuborish</Butt>
+          <Butt onClick={notify}>Yuborish</Butt>
+          <ToastContainer />
         </Content>
       </Container>
     </Wrapper>

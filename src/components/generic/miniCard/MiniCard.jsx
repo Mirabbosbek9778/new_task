@@ -7,11 +7,18 @@ const MiniCard = () => {
       {dataAbout?.map((item, index) => (
         <Box key={index}>
           <Content>
-            <Title>{item?.name}</Title>
-            <Title size="true">{item?.about}</Title>
-            <Title.Item>{item?.date}</Title.Item>
+            <a
+              href="https://youtu.be/PvnZppH92nY?si=LOPiH-bYEhZYt0Iy"
+              className="flex flex-col gap-[10px]"
+            >
+              <Title>{item?.name}</Title>
+              <Title size="true">{item?.about}</Title>
+              <Title.Item>{item?.date}</Title.Item>
+            </a>
           </Content>
-          <img src={item?.icons} className="bg-yellow-700" />
+          <a href="https://youtu.be/PvnZppH92nY?si=LOPiH-bYEhZYt0Iy">
+            <img src={item?.icons} />
+          </a>
         </Box>
       ))}
     </MiniWrap>

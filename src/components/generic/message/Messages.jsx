@@ -1,6 +1,6 @@
 import { dataMessage } from "../../autoImports/importMocks";
 import { BigText } from "../cards/style";
-import { Abouts, Container, Content, Line } from "./style";
+import { Abouts, Container, Content, Item, Line } from "./style";
 
 const Messages = () => {
   return (
@@ -8,10 +8,10 @@ const Messages = () => {
       <BigText>Mashhur maqolalar</BigText>
       {dataMessage?.map((item, index) => (
         <Content key={index}>
-          <div>
+          <Item>
             <Abouts size="true">{item?.about}</Abouts>
             <Abouts.Date height="true">{item?.date}</Abouts.Date>
-          </div>
+          </Item>
           <Line></Line>
         </Content>
       ))}
@@ -20,6 +20,5 @@ const Messages = () => {
 };
 
 export default Messages;
-
 
 // n m

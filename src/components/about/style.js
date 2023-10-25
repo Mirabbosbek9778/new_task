@@ -11,6 +11,10 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 714px) {
+    display: flex;
+  }
 `;
 
 const Content = styled.div`
@@ -50,6 +54,27 @@ const Layout = styled.div`
   border-radius: 240.81px;
   position: absolute;
   right: 200px;
+
+  @media (max-width: 714px) {
+    position: absolute;
+    width: 256.083px;
+    height: 458.765px;
+    right: 40px;
+    top: 70px;
+    transform: rotate(-160deg);
+  }
 `;
 
-export { Wrapper, H1, Ptext, Layout, Container, Content };
+const PeopleImage = styled.img`
+  position: relative;
+  @media (max-width: 714px) {
+    width: 714px;
+    height: 350px;
+    flex-shrink: 0;
+    position: relative;
+    top: 80.5px;
+    right: 50px;
+  }
+`;
+
+export { Wrapper, H1, Ptext, Layout, Container, Content, PeopleImage };

@@ -8,6 +8,7 @@ const H1 = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  cursor: pointer;
 `;
 
 export { H1 };
